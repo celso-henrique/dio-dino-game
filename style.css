@@ -2,6 +2,29 @@ body {
   background: #fafafa;
 }
 
+header .container{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+p{
+  text-align: center;
+  color: #666;
+  margin: 50px 0;
+  font-family: arial;
+}
+
+a{
+  text-align: center;
+  color: #666;
+  margin: 50px 0;
+  font-family: arial;
+  text-decoration: none; /* no underline */
+}
+
 .dino {
   position: absolute;
   bottom: 0;
